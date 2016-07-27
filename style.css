@@ -1,0 +1,74 @@
+/* Here goes your CSS */
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color:#F0B775;
+  font-family: 'Comfortaa', cursive;
+  color: #11040B;
+  font-size: 12;
+  line-height: 2;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+  padding: 0.5%;
+  background-color: #F5DD7B;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: white;
+  width: 80%;
+  padding: 30px;
+  border-radius: 20px;
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: darkgray;
+  margin: 20px auto;
+  transition: box-shadow 150ms, transform 150ms;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.link-wagon:hover{
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
+  background: gold
+  /*transform: scale(1.1);*/
+}
+
+.link-wagon {
+  color: brown;
+}
+
+.list-inline{ color: darkgray;
+  width: 20%;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.card table {
+  padding: 2px;
+  margin: 0px auto;
+  align: left;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+b {
+  width: 80%;
+  padding: 5px;
+  border-radius: 20px;
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  background-color: #F5DD7B
+}
+
+b:hover{
+  color: #ccc;
+  text-decoration: #83580B;
+}
